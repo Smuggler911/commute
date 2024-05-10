@@ -1,0 +1,7 @@
+@commute_HostAddress = http://localhost:5181
+
+GET {{commute_HostAddress}}/locations
+Accept: application/json
+###
+GET {{commute_HostAddress}}/calc_distance/{from}/{to}
+Accept: application/json
